@@ -1,0 +1,18 @@
+<h1>Log in</h1>
+{{>flash_messages}}
+
+<form action="/check-login" method = "POST">
+
+  <label>
+    Username:
+    <input type="text" name="usernameGuess" placeholder="NabilFekir">
+  </label>
+
+  <label>
+    Password:
+    <input type="password" name="passwordGuess" placeholder="secretBestPlayer">
+  </label>
+
+  <button>Log in</button>
+
+</form>

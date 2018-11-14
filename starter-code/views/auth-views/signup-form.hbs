@@ -1,0 +1,18 @@
+<h1>Sign Up</h1>
+{{>flash_messages}}
+
+<form id="myform" action="/adduser" method = "POST">
+
+  <label>
+    Username:
+    <input type="text" name="usernameEntry" placeholder="NabilFekir">
+  </label>
+
+  <label>
+    Password:
+    <input id="myPassword" type="password" name="originalPassword" placeholder="secretBestPlayer">
+  </label>
+
+  <button>Sign up</button>
+
+</form>
